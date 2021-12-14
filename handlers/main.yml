@@ -1,0 +1,4 @@
+---
+# handlers file for myappache
+- name: restart apache
+  service: name=httpd state=restarted
